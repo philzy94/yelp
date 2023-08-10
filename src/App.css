@@ -1,0 +1,33 @@
+.image-div{
+    height: 300px;
+    position: static;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/Restaurant.jpg);
+    opacity: 50%;
+}
+.bg{
+    background-color: black;
+}
+
+Image{
+    width: 50px;
+
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+.paragraph{
+    position: fixed;
+    margin-top: 100px;
+}
+
+.amplify-button[data-variation='primary']{
+    background-color: rgb(192, 31, 31);
+}
+.amplify-button[data-variation='primary']:hover{
+    background-color: brown;
+}
+
